@@ -1,5 +1,21 @@
 {
+  "author": {
+    "name": "Devincube"
+  },
+  "scripts": {
+    "start": "cross-env LTSUBDOMAIN=devincubez nodemon ."
+  },
+  "main": "main.js",
   "dependencies": {
-    "express": "^4.16.4"
+    "@moltin/sdk": "^3.20.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "localtunnel": "^1.9.1",
+    "omise": "^0.5.6"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.0"
   }
 }
